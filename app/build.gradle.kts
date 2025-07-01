@@ -42,6 +42,7 @@ android {
 dependencies {
     // Location services
     implementation("com.google.android.gms:play-services-location:21.0.1")
+    implementation ("com.google.code.gson:gson:2.10.1")
 
     // For simpler permission handling
     implementation("com.vmadalin:easypermissions-ktx:1.0.0")
